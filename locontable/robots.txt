@@ -2,4 +2,4 @@ User-agent: *
 
 Allow: /
 
-Sitemap: https://TU-USUARIO.github.io/locontable/sitemap.xml
+Sitemap: https://nitziaoz.github.io/locontable/sitemap.xml
