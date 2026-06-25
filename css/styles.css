@@ -243,6 +243,114 @@ margin-bottom:15px;
 color:var(--primary);
 }
 
+
+/*=========================
+ ÁREAS ESPECIALIZADAS
+==========================*/
+
+.specialties{
+
+    padding:100px 0;
+    background:#F8FAFC;
+
+}
+
+.specialties h2{
+
+    text-align:center;
+    color:#021B4E;
+    font-size:2.5rem;
+    margin-bottom:15px;
+
+}
+
+.specialties-subtitle{
+
+    max-width:750px;
+    margin:auto;
+    text-align:center;
+    color:#666;
+    margin-bottom:60px;
+
+}
+
+.specialties-grid{
+
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:30px;
+
+}
+
+.specialty-card{
+
+    background:white;
+    border-radius:20px;
+    padding:35px 25px;
+    text-align:center;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    transition:.35s;
+
+}
+
+.specialty-card:hover{
+
+    transform:translateY(-10px);
+
+}
+
+.specialty-card i{
+
+    font-size:3rem;
+    color:#D4A437;
+    margin-bottom:20px;
+
+}
+
+.specialty-card h3{
+
+    color:#021B4E;
+    margin-bottom:15px;
+
+}
+
+.specialty-card p{
+
+    color:#666;
+    line-height:1.7;
+
+}
+
+/* Tablets */
+
+@media(max-width:992px){
+
+.specialties-grid{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+}
+
+/* Celulares */
+
+@media(max-width:768px){
+
+.specialties{
+
+padding:70px 0;
+
+}
+
+.specialties-grid{
+
+grid-template-columns:1fr;
+
+}
+
+}
+
 /* ==========================
 BENEFITS
 ========================== */
@@ -426,7 +534,7 @@ footer{
 
 footer p{
     margin:0;
-    font: size 0.95rem;
+    font-size:0.95rem;
 }
 
 
@@ -459,7 +567,7 @@ RESPONSIVE
 @media(max-width:768px)
 {
       
-        .contact-grid{
+    .contact-grid{
         grid-template-columns:1fr;
     }
 
@@ -543,9 +651,9 @@ RESPONSIVE
 
     .contact-grid{
         display:grid;
-        grid-template-columns:1fr 1fr;
-        gap:40px;
-        margin-bottom:50px;
+        grid-template-columns:1fr;
+        gap:25px;
+        margin-bottom:30px;
     }
 
     .contact-info{
